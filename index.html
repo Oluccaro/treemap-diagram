@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://d3js.org/d3.v7.min.js" ></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tree Map Diagram</title>
+</head>
+<body>
+    <nav><button type="button" class="btn" onclick="setData('games')">Games</button>
+        <button type="button" class="btn" onclick="setData('movies')">Movies</button>
+        <button type="button" class="btn" onclick="setData('kick')">Kickstarters</button>
+    </nav>
+    <svg id="legend">
+    </svg>
+    <div id="tree-map">
+    <h1 id="title"></h1>
+    <h3 id="description"></h3>
+    </div>
+
+</body>
+<script defer src="./script.js"></script>
+<script defer src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
